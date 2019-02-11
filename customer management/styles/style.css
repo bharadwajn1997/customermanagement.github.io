@@ -1,0 +1,137 @@
+  
+          .button {
+            background-color: #008CBA;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 15px 92px;
+            cursor: pointer;
+            border-radius: 12px;
+          }
+          .topnav {
+            overflow: hidden;
+            background-color: #008CBA;
+            border-radius: 12px;
+             }
+          
+          .topnav a {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            
+            border-radius: 12px;
+          }
+          .topnav b {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            
+            border-radius: 10px;
+          }
+          .topnav a:hover {
+            background-color: rgb(93, 96, 255);
+            color: rgb(252, 246, 246);
+          }
+          
+          .topnav a.active {
+            background-color: rgb(89, 100, 253);
+            color: white;
+          }
+          .topnav b.active {
+            background-color: rgb(89, 100, 253);
+            color: white;
+          }
+          
+          .topnav-right {
+            float: right;
+          }
+          input[type=text], select,input[type=number] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 2px solid #ccc;
+            border-radius: 12px;
+            height: 50px;
+            width:400px;
+            border-left: 5px solid green;
+            margin-left: 5px;
+          }
+          .loginpage{
+            height: 600px;
+            width: 800px;
+           border:2px solid black; 
+           border-radius: 12px;
+        
+          
+            margin-top: 100px;
+            margin-left: 200px;
+        }
+        
+        #customers {
+            font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width:100%;
+          }
+          #customers th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #008CBA;
+            color: white;
+          }   
+          #customers td, #customers th {
+            border: 1px solid #ddd;
+            padding: 8px;
+          }    
+          * {
+            box-sizing: border-box;
+          }
+          
+        
+          
+          /* Float four columns side by side */
+          .column {
+            float: left;
+            width: 25%;
+            padding: 0 10px;
+          }
+          
+          /* Remove extra left and right margins, due to padding */
+          .row {margin: 0 -5px;}
+          
+          /* Clear floats after the columns */
+          .row:after {
+            content: "";
+            display: table;
+            clear: both;
+          }
+          
+          /* Responsive columns */
+          @media screen and (max-width: 600px) {
+            .column {
+              width: 100%;
+              display: block;
+              margin-bottom: 20px;
+            }
+          }
+          
+          /* Style the counter cards */
+          .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            padding: 16px;
+            text-align: center;
+            background-color:darkkhaki;
+          }
+         
+          
